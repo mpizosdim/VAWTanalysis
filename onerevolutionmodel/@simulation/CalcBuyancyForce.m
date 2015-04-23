@@ -1,0 +1,3 @@
+function BuyancyForce = CalcBuyancyForce(obj)
+BuyancyForce = obj.WaveSimulation.Density*obj.WaveSimulation.Gravity*(pi/4)...
+    *((2*obj.windTurbine.floater.Radius)^2)*abs(obj.windTurbine.floater.draft)-obj.windTurbine.Mass*obj.WaveSimulation.Gravity;
