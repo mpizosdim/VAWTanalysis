@@ -20,11 +20,11 @@ end
 function WindTurbineGUI_OpeningFcn(hObject, eventdata, handles, varargin)
 handles.output = hObject;
 axes(handles.logoTg)
-imshow('logo_dtu.jpg')
+%imshow('logo_dtu.jpg')
 axes(handles.logoTg2)
-imshow('LogoOfSoftware.png')
+%imshow('LogoOfSoftware.png')
 axes(handles.PlotResult)
-imshow('logoplot.jpg')
+%imshow('logoplot.jpg')
 guidata(hObject, handles);
 function varargout = WindTurbineGUI_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
