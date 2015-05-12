@@ -8,10 +8,9 @@ The GUI is divided in three input blocks and two output blocks. The three input 
 consist of:
 
 * the simulation inputs block, where the user can choose the following:
- * the number of nodes of the blade in the vertical dimension as well as the 
-  which is the degree at which the simulator makes two consecutive calculations
+ * the number of nodes of the blade in the vertical dimension as well as the DeltaThita which is the degree at which the simulator makes two consecutive calculations
   for the DMS model.
- * the option of using streamtube expansion (described in section 2.3). Calculations
+ * the option of using streamtube expansion. Calculations
   in this option are slightly more computational expensive.
  * the total time of the simulation as well as the initial removal of time in order
 to avoid start-up transients in the frequency and in the statistical analysis.
